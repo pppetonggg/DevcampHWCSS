@@ -10,7 +10,7 @@
 
 .first-section{
     background-image: url(https://images8.alphacoders.com/110/1102284.jpg);
-    color: white;
+    background-size: cover;
 }
 
 .first-section nav{
@@ -57,15 +57,47 @@
 .first-section .info{
    display: flex;
    align-items: center;
+   color: white;
 }
 
 .first-section .info img{
     margin-right: 10px;
 }
 
-.first-section .text-box{
+.above-text-box{
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 200px;
     margin-right: 100px;
+    color: white;
+}
+
+.first-section .text-box{
+    padding-bottom: 100px;
+}
+
+.first-section .text-box p{
+    padding: 50px 100px;
+    margin-left: 200px;
+    margin-right: 500px;
     border: 1px solid white;
+    color: white;
+}
+
+.first-section .next-page{
+    display: flex;
+    margin-left: 80px;
+    padding-bottom: 100px;
+}
+
+.first-section .next-page .item{
+    background-color: white;
+    color: black;
+    margin: 5px;
+    padding: 0.2cm 0.5cm;
+    text-decoration: none;
+}
+
+.first-section .next-page .item:hover{
+    background-color: rgb(127, 127, 127);
+    color: white;
 }
