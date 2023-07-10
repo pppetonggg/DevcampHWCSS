@@ -105,6 +105,7 @@
 .second-section{
     background-image: url(https://wallpapercave.com/wp/wp10547367.png);
     background-size: cover;
+    padding-bottom: 100px;
 }
 
 .second-section .up{
@@ -150,11 +151,12 @@
 .second-section .down .box{
     padding: 20px;
     display: flexbox;
+    text-align: center;
 }
 
 .second-section .down .box img{
     width: 100px;
-    position: relative;
+    /* position: relative; */
 }
 
 .second-section .down .header{
@@ -168,4 +170,79 @@
     font-size: small;
     padding-left: 55px;
     padding-right: 55px;
+}
+
+.third-section{
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/169282950408586596/3AC3356BD09B14CBB49331F3DC11EDF9AFFC62EF/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=#000000&letterbox=false);
+    background-size: cover;
+}
+
+.third-section p{
+    color: white;
+}
+
+.third-section .up{
+    margin-left: 50vw;
+    background-color: hsla(0, 0%, 0%, 0.364);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.third-section .up p{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.third-section button{
+    padding: 10px 25px;
+    margin-left: 50px;
+    background-color: transparent;
+    border: white solid 3px;
+    color: white;
+}
+
+.third-section button:hover{
+    color: black;
+    background-color: white;
+}
+
+.third-section .down{
+    display: flex;
+}
+
+.third-section .blue{
+    background-color: rgba(47, 152, 194, 0.85);
+    width: 80vw;
+    display: flex;
+    align-items: center;
+}
+
+.third-section .blue .left-box{
+    margin-left: 250px;
+    margin-right: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.third-section .white{
+    background-color: white;
+    width: 20vw;
+}
+
+.third-section .down p{
+    font-size: 16pt;
+    line-height: 2;
+}
+
+.third-section .down .vl{
+    border-left: 2px solid rgba(255, 255, 255, 0.6);
+    height: 20vh;
+}
+
+.third-section .down .right-box{
+    width: 30vw;
+    color: white;
+    margin-right: 250px;
+    margin-left: 80px;
 }
