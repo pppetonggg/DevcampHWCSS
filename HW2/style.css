@@ -114,3 +114,32 @@ nav a:hover{
 .second-section .one :first-child{
     margin-bottom: 30px;
 }
+
+.third-section{
+    display: flex;
+}
+
+.third-section .right{
+    display: flex;
+}
+
+.third-section .right .left-box{
+    width: 90px;
+    background-color: rgba(55, 189, 62, 0.602);
+}
+
+.third-section .right .right-box{
+    width: fit-content;
+    background-color: white;
+    width: 350px;
+    padding: 50px 70px;
+    /* margin-right: -50px; */
+}
+
+.third-section .right .right-box p{
+    margin-bottom: 15px;
+}
+
+.third-section .right .right-box :last-child{
+    font-size: 9pt;
+}
