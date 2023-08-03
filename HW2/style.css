@@ -172,3 +172,40 @@ nav a:hover {
 .fourth-section .item .text {
     color: rgb(164, 164, 164);
 }
+
+footer{
+    display: flex;
+    margin: 15px 60px;
+    justify-content: space-around;
+}
+
+footer *{
+    padding-bottom: 15px;
+}
+
+
+footer .one .social-icon{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .one .social-icon img{
+    max-height: 50px;
+}
+
+footer button{
+    background-color:  rgb(52, 149, 41);
+    padding: 5px 10px; 
+    border: none;
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    margin-right: 15px;
+}
+
+footer button *{
+    margin: auto;
+}
